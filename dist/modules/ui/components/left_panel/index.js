@@ -69,7 +69,7 @@ var LeftPanel = function LeftPanel(props) {
 };
 
 LeftPanel.propTypes = {
-  stories: _propTypes2.default.array.isRequired,
+  stories: _propTypes2.default.array,
   selectedKind: _propTypes2.default.string,
   selectedStory: _propTypes2.default.string,
   onSelectStory: _propTypes2.default.func,
