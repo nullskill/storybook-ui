@@ -36,7 +36,7 @@ const LeftPanel = (props) => (
 );
 
 LeftPanel.propTypes = {
-  stories: PropTypes.array.isRequired,
+  stories: PropTypes.array,
   selectedKind: PropTypes.string,
   selectedStory: PropTypes.string,
   onSelectStory: PropTypes.func,
