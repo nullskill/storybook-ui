@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ReactModal from 'react-modal';
 
 const commandStyle = {
@@ -83,7 +84,7 @@ export const Keys = ({ shortcutKeys }) => {
 };
 
 Keys.propTypes = {
-  shortcutKeys: React.PropTypes.array.isRequired,
+  shortcutKeys: PropTypes.array.isRequired,
 };
 
 export const Shortcuts = ({ appShortcuts }) => {
@@ -105,7 +106,7 @@ export const Shortcuts = ({ appShortcuts }) => {
 };
 
 Shortcuts.propTypes = {
-  appShortcuts: React.PropTypes.array.isRequired,
+  appShortcuts: PropTypes.array.isRequired,
 };
 
 export const ShortcutsHelp = ({ isOpen, onClose, platform }) => (
@@ -120,9 +121,9 @@ export const ShortcutsHelp = ({ isOpen, onClose, platform }) => (
 );
 
 ShortcutsHelp.propTypes = {
-  isOpen: React.PropTypes.bool,
-  onClose: React.PropTypes.func,
-  platform: React.PropTypes.string.isRequired,
+  isOpen: PropTypes.bool,
+  onClose: PropTypes.func,
+  platform: PropTypes.string.isRequired,
 };
 
 export default ShortcutsHelp;

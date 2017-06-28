@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { baseFonts } from '../theme';
 
 const listStyle = {
@@ -103,10 +104,10 @@ class Stories extends React.Component {
 }
 
 Stories.propTypes = {
-  stories: React.PropTypes.array.isRequired,
-  selectedKind: React.PropTypes.string.isRequired,
-  selectedStory: React.PropTypes.string.isRequired,
-  onSelectStory: React.PropTypes.func,
+  stories: PropTypes.array.isRequired,
+  selectedKind: PropTypes.string.isRequired,
+  selectedStory: PropTypes.string.isRequired,
+  onSelectStory: PropTypes.func,
 };
 
 export default Stories;
