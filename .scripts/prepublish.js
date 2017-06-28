@@ -6,8 +6,13 @@ const babel = ['node_modules', '.bin', 'babel'].join(path.sep);
 require('./ver');
 
 
+// const args = [
+//   '--ignore tests,__tests__,stories,story.jsx,story.js',
+//   '--plugins "transform-runtime"',
+//   './src --out-dir ./dist',
+// ].join(' ');
 const args = [
-  '--ignore tests,__tests__,stories,story.jsx,story.js',
+  '--ignore tests,__tests__,story.jsx,story.js',
   '--plugins "transform-runtime"',
   './src --out-dir ./dist',
 ].join(' ');
