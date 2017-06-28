@@ -8,6 +8,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _header = require('./header');
 
 var _header2 = _interopRequireDefault(_header);
@@ -65,17 +69,17 @@ var LeftPanel = function LeftPanel(props) {
 };
 
 LeftPanel.propTypes = {
-  stories: _react2.default.PropTypes.array,
-  selectedKind: _react2.default.PropTypes.string,
-  selectedStory: _react2.default.PropTypes.string,
-  onSelectStory: _react2.default.PropTypes.func,
+  stories: _propTypes2.default.array,
+  selectedKind: _propTypes2.default.string,
+  selectedStory: _propTypes2.default.string,
+  onSelectStory: _propTypes2.default.func,
 
-  storyFilter: _react2.default.PropTypes.string,
-  onStoryFilter: _react2.default.PropTypes.func,
+  storyFilter: _propTypes2.default.string,
+  onStoryFilter: _propTypes2.default.func,
 
-  openShortcutsHelp: _react2.default.PropTypes.func,
-  name: _react2.default.PropTypes.string,
-  url: _react2.default.PropTypes.string
+  openShortcutsHelp: _propTypes2.default.func,
+  name: _propTypes2.default.string,
+  url: _propTypes2.default.string
 };
 
 exports.default = LeftPanel;

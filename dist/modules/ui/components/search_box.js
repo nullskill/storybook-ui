@@ -32,6 +32,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _reactFuzzy = require('react-fuzzy');
 
 var _reactFuzzy2 = _interopRequireDefault(_reactFuzzy);
@@ -148,8 +152,8 @@ exports.default = SearchBox;
 
 
 SearchBox.propTypes = {
-  showSearchBox: _react2.default.PropTypes.bool.isRequired,
-  stories: _react2.default.PropTypes.arrayOf(_react2.default.PropTypes.object),
-  onSelectStory: _react2.default.PropTypes.func.isRequired,
-  handleEvent: _react2.default.PropTypes.func.isRequired
+  showSearchBox: _propTypes2.default.bool.isRequired,
+  stories: _propTypes2.default.arrayOf(_propTypes2.default.object),
+  onSelectStory: _propTypes2.default.func.isRequired,
+  handleEvent: _propTypes2.default.func.isRequired
 };

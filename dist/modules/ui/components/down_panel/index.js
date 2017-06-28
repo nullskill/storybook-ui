@@ -36,6 +36,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _style = require('./style');
 
 var _style2 = _interopRequireDefault(_style);
@@ -146,9 +150,9 @@ var DownPanel = function (_Component) {
 }(_react.Component);
 
 DownPanel.propTypes = {
-  panels: _react2.default.PropTypes.object,
-  onPanelSelect: _react2.default.PropTypes.func,
-  selectedPanel: _react2.default.PropTypes.string
+  panels: _propTypes2.default.object,
+  onPanelSelect: _propTypes2.default.func,
+  selectedPanel: _propTypes2.default.string
 };
 
 exports.default = DownPanel;

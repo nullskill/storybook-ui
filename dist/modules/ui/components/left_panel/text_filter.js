@@ -32,6 +32,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _theme = require('../theme');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -144,7 +148,7 @@ exports.default = TextFilter;
 
 
 TextFilter.propTypes = {
-  text: _react2.default.PropTypes.string,
-  onChange: _react2.default.PropTypes.func,
-  onClear: _react2.default.PropTypes.func
+  text: _propTypes2.default.string,
+  onChange: _propTypes2.default.func,
+  onClear: _propTypes2.default.func
 };

@@ -10,6 +10,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _reactModal = require('react-modal');
 
 var _reactModal2 = _interopRequireDefault(_reactModal);
@@ -99,7 +103,7 @@ var Keys = exports.Keys = function Keys(_ref) {
 };
 
 Keys.propTypes = {
-  shortcutKeys: _react2.default.PropTypes.array.isRequired
+  shortcutKeys: _propTypes2.default.array.isRequired
 };
 
 var Shortcuts = exports.Shortcuts = function Shortcuts(_ref2) {
@@ -127,7 +131,7 @@ var Shortcuts = exports.Shortcuts = function Shortcuts(_ref2) {
 };
 
 Shortcuts.propTypes = {
-  appShortcuts: _react2.default.PropTypes.array.isRequired
+  appShortcuts: _propTypes2.default.array.isRequired
 };
 
 var ShortcutsHelp = exports.ShortcutsHelp = function ShortcutsHelp(_ref3) {
@@ -147,9 +151,9 @@ var ShortcutsHelp = exports.ShortcutsHelp = function ShortcutsHelp(_ref3) {
 };
 
 ShortcutsHelp.propTypes = {
-  isOpen: _react2.default.PropTypes.bool,
-  onClose: _react2.default.PropTypes.func,
-  platform: _react2.default.PropTypes.string.isRequired
+  isOpen: _propTypes2.default.bool,
+  onClose: _propTypes2.default.func,
+  platform: _propTypes2.default.string.isRequired
 };
 
 exports.default = ShortcutsHelp;
