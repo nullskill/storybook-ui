@@ -48,7 +48,7 @@
     "react-dom": "^15.6.1"
   },
   "dependencies": {
-    "@kadira/react-split-pane": "^1.4.0",
+    "@kadira/react-split-pane": "github:nullskill/react-split-pane",
     "babel-runtime": "^6.5.0",
     "deep-equal": "^1.0.1",
     "events": "^1.1.1",
