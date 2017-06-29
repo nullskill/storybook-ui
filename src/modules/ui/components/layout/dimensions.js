@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { baseFonts } from '../theme';
 
@@ -77,8 +78,8 @@ class Dimensions extends React.Component {
 }
 
 Dimensions.propTypes = {
-  width: React.PropTypes.number.isRequired,
-  height: React.PropTypes.number.isRequired,
+  width: PropTypes.number.isRequired,
+  height: PropTypes.number.isRequired,
 };
 
 export default Dimensions;
